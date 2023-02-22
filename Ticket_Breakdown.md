@@ -25,25 +25,25 @@ This project I used the following technologies:
 - Supertest
 - pdf-to-base64
 
-I built a REST API to generate a report in PDF. For this I think Typescript is the best choice because it is a typed language and it is easy to read and understand the code.
-I used Express to create the API. 
-I used Jest and supertest to test the application. 
-I used PDFKit to generate the PDF.
-I pdf-to-base64 to convert the PDF to base64, because any tools always return string base64 respect contract interface.
+* I built a REST API to generate a report in PDF. For this I think Typescript is the best choice because it is a typed language and it is easy to read and understand the code.
+* I used Express to create the API. 
+* I used Jest and supertest to test the application. 
+* I used PDFKit to generate the PDF.
+* I pdf-to-base64 to convert the PDF to base64, because any tools always return string base64 respect contract interface.
 
-I used concepts of SOLID and Clean Code and Clean Architecture.
-I created a controller to receive the request and call the service to generate the report. 
-I created folders to separate the responsibilities of the application DDD concepts.
+* I used concepts of SOLID and Clean Code and Clean Architecture.
+* I created a controller to receive the request and call the service to generate the report. 
+* I created folders to separate the responsibilities of the application DDD concepts.
 
-I used Clean Architecture for separate business rules for external frameworks and libraries. 
-I prefer develop using interfaces to allow the application to be extended without modifying the existing code
+* I used Clean Architecture for separate business rules for external frameworks and libraries. 
+* I prefer develop using interfaces to allow the application to be extended without modifying the existing code
 
-I used the repository pattern to separate the data access from the business rules. The repository is in memory for this challenge.
-I used single responsibility principle to separate the business rules into small functions.
-I used open/closed principle to allow the application to be extended without modifying the existing code.
-I used the Liskov substitution principle to allow the application to be extended without modifying the existing code.
-I used the interface segregation principle to separate the business rules from the external frameworks and libraries.
-I used the dependency inversion principle to separate the business rules from the external frameworks and libraries.
+* I used the repository pattern to separate the data access from the business rules. The repository is in memory for this challenge.
+* I used single responsibility principle to separate the business rules into small functions.
+* I used open/closed principle to allow the application to be extended without modifying the existing code.
+* I used the Liskov substitution principle to allow the application to be extended without modifying the existing code.
+* I used the interface segregation principle to separate the business rules from the external frameworks and libraries.
+* I used the dependency inversion principle to separate the business rules from the external frameworks and libraries.
 
 This API have 3 routes:
 
