@@ -15,7 +15,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 ## Your Breakdown Here
 The ticket breakdown was developed "ticketbreakdown" folder.
 
-This project I used the following technologies:
+This project I used the following technologies anb best practices:
 
 - Node.js
 - Typescript
