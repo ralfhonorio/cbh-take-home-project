@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "outDir": "build",
+    "rootDirs": [
+      "./ticketbreakdown/src",
+      "./ticketbreakdown/tests"
+    ],
+    "target": "es2021",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "baseUrl": "ticketbreakdown/src",
+    "strict": true,
+    "noImplicitOverride": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "include": [
+    "ticketbreakdown/src",
+    "ticketbreakdown/tests"
+  ]
+}
