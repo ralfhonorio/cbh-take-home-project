@@ -60,6 +60,13 @@ I could create more responsibilities to the application, like:
 
 But I think this is enough to show my skills.
 
+Run project
+
+Install Node.js (we use ^16, the latest LTS)
+Run npm i in this repo to install dependencies
+Run npm run test to run the automated tests
+Run npm run dev to launch server.ts - PORT: 3000
+
 
 
 
